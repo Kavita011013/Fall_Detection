@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ffffff">
+    <FrameLayout
+        android:id="@+id/secretScanFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
+
+
+    <Button
+        android:id="@+id/Fall_check"
+        android:layout_width="286dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#323e41"
+        android:text="INFO #1/ Fall detected"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/FindServices" />
+
+    <Button
+        android:id="@+id/heartBeatCheck"
+        android:layout_width="286dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="92dp"
+        android:backgroundTint="#323e41"
+        android:text="Check heartBeat"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/FindServices" />
+
+    <ImageView
+        android:id="@+id/setings_activity"
+        android:layout_width="36dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ic_baseline_settings_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.955"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/IPAddress_activity"
+        android:layout_width="288dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="332dp"
+        android:background="@drawable/textfileds_border"
+        android:ems="10"
+        android:hint="                  Enter IP address"
+        android:inputType="textPersonName"
+        android:textColor="#4b4b4b"
+        android:textColorHint="#696969"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/FindServices"
+        android:layout_width="288dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#323e41"
+        android:text="NearBy services"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="373dp"
+        android:layout_height="278dp"
+        android:layout_marginTop="68dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/scanphoto" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="359dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:srcCompat="@drawable/logo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

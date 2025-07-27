@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1060192791720",
+    "project_id": "falldetection-4208d",
+    "storage_bucket": "falldetection-4208d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060192791720:android:17a49596b49ea00a57a69d",
+        "android_client_info": {
+          "package_name": "kavita.myappcompany.falldetection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1060192791720-3ghn0rsvvtbq1ijo3fv240b2tnfgi2pi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRpao-nmSMoTnNSibwe5iWqpak_Pl2s2M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1060192791720-3ghn0rsvvtbq1ijo3fv240b2tnfgi2pi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

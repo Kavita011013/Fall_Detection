@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FallDetection.iml" filepath="$PROJECT_DIR$/.idea/modules/FallDetection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FallDetection.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FallDetection.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FallDetection.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FallDetection.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FallDetection.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FallDetection.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FallDetection.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FallDetection.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>
